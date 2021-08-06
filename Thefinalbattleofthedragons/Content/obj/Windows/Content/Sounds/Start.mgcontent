@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SourceFile>C:/Users/Theerapon.nanoi.185/Projects/Thefinalbattleofthedragons/Thefinalbattleofthedragons/Content/Sounds/Start.wav</SourceFile>
+  <SourceTime>2020-05-08T17:19:49.1596949+07:00</SourceTime>
+  <DestFile>C:/Users/Theerapon.nanoi.185/Projects/Thefinalbattleofthedragons/Thefinalbattleofthedragons/Content/bin/Windows/Content/Sounds/Start.xnb</DestFile>
+  <DestTime>2021-08-06T16:39:16.3401633+07:00</DestTime>
+  <Importer>WavImporter</Importer>
+  <ImporterTime>2018-12-08T23:35:54+07:00</ImporterTime>
+  <Processor>SoundEffectProcessor</Processor>
+  <ProcessorTime>2018-12-08T23:35:54+07:00</ProcessorTime>
+  <Parameters>
+    <Key>Quality</Key>
+    <Value>Best</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>

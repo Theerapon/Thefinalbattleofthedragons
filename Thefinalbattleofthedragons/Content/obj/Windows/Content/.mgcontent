@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Profile>Reach</Profile>
+  <Platform>Windows</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/Users/Theerapon.nanoi.185/Projects/Thefinalbattleofthedragons/Thefinalbattleofthedragons/Content/fonts/FontFFF.spritefont</File>
+    <File>C:/Users/Theerapon.nanoi.185/Projects/Thefinalbattleofthedragons/Thefinalbattleofthedragons/Content/fonts/FontFFF18.spritefont</File>
+    <File>C:/Users/Theerapon.nanoi.185/Projects/Thefinalbattleofthedragons/Thefinalbattleofthedragons/Content/Images/Background.png</File>
+    <File>C:/Users/Theerapon.nanoi.185/Projects/Thefinalbattleofthedragons/Thefinalbattleofthedragons/Content/Images/DragonFire.png</File>
+    <File>C:/Users/Theerapon.nanoi.185/Projects/Thefinalbattleofthedragons/Thefinalbattleofthedragons/Content/Images/Main.png</File>
+    <File>C:/Users/Theerapon.nanoi.185/Projects/Thefinalbattleofthedragons/Thefinalbattleofthedragons/Content/Images/Motion.png</File>
+    <File>C:/Users/Theerapon.nanoi.185/Projects/Thefinalbattleofthedragons/Thefinalbattleofthedragons/Content/Images/MotionCreepGate.png</File>
+    <File>C:/Users/Theerapon.nanoi.185/Projects/Thefinalbattleofthedragons/Thefinalbattleofthedragons/Content/Images/MotionDragon.png</File>
+    <File>C:/Users/Theerapon.nanoi.185/Projects/Thefinalbattleofthedragons/Thefinalbattleofthedragons/Content/Images/skill.png</File>
+    <File>C:/Users/Theerapon.nanoi.185/Projects/Thefinalbattleofthedragons/Thefinalbattleofthedragons/Content/Images/White.png</File>
+    <File>C:/Users/Theerapon.nanoi.185/Projects/Thefinalbattleofthedragons/Thefinalbattleofthedragons/Content/Sounds/BGMMain2.mp3</File>
+    <File>C:/Users/Theerapon.nanoi.185/Projects/Thefinalbattleofthedragons/Thefinalbattleofthedragons/Content/Sounds/BGMPlaying.mp3</File>
+    <File>C:/Users/Theerapon.nanoi.185/Projects/Thefinalbattleofthedragons/Thefinalbattleofthedragons/Content/Sounds/Charge.wav</File>
+    <File>C:/Users/Theerapon.nanoi.185/Projects/Thefinalbattleofthedragons/Thefinalbattleofthedragons/Content/Sounds/Click.wav</File>
+    <File>C:/Users/Theerapon.nanoi.185/Projects/Thefinalbattleofthedragons/Thefinalbattleofthedragons/Content/Sounds/Count.wav</File>
+    <File>C:/Users/Theerapon.nanoi.185/Projects/Thefinalbattleofthedragons/Thefinalbattleofthedragons/Content/Sounds/DragonAttack.wav</File>
+    <File>C:/Users/Theerapon.nanoi.185/Projects/Thefinalbattleofthedragons/Thefinalbattleofthedragons/Content/Sounds/DragonDead.wav</File>
+    <File>C:/Users/Theerapon.nanoi.185/Projects/Thefinalbattleofthedragons/Thefinalbattleofthedragons/Content/Sounds/DragonFireBounce.wav</File>
+    <File>C:/Users/Theerapon.nanoi.185/Projects/Thefinalbattleofthedragons/Thefinalbattleofthedragons/Content/Sounds/DragonHurt.wav</File>
+    <File>C:/Users/Theerapon.nanoi.185/Projects/Thefinalbattleofthedragons/Thefinalbattleofthedragons/Content/Sounds/Fire.wav</File>
+    <File>C:/Users/Theerapon.nanoi.185/Projects/Thefinalbattleofthedragons/Thefinalbattleofthedragons/Content/Sounds/Mana.wav</File>
+    <File>C:/Users/Theerapon.nanoi.185/Projects/Thefinalbattleofthedragons/Thefinalbattleofthedragons/Content/Sounds/Portal.wav</File>
+    <File>C:/Users/Theerapon.nanoi.185/Projects/Thefinalbattleofthedragons/Thefinalbattleofthedragons/Content/Sounds/Start.wav</File>
+    <File>C:/Users/Theerapon.nanoi.185/Projects/Thefinalbattleofthedragons/Thefinalbattleofthedragons/Content/Sounds/Summon.wav</File>
+    <File>C:/Users/Theerapon.nanoi.185/Projects/Thefinalbattleofthedragons/Thefinalbattleofthedragons/Content/Sounds/SummonAttack.wav</File>
+    <File>C:/Users/Theerapon.nanoi.185/Projects/Thefinalbattleofthedragons/Thefinalbattleofthedragons/Content/Sounds/SummonAttackBounce.wav</File>
+    <File>C:/Users/Theerapon.nanoi.185/Projects/Thefinalbattleofthedragons/Thefinalbattleofthedragons/Content/Sounds/SummonDead.wav</File>
+    <File>C:/Users/Theerapon.nanoi.185/Projects/Thefinalbattleofthedragons/Thefinalbattleofthedragons/Content/Sounds/SummonHurt.wav</File>
+    <File>C:/Users/Theerapon.nanoi.185/Projects/Thefinalbattleofthedragons/Thefinalbattleofthedragons/Content/Sounds/Thunder.wav</File>
+  </SourceFiles>
+  <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>

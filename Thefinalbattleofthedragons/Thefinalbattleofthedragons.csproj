@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{96A4DFBA-8773-40F3-A1AD-75AD6EBD63C3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Thefinalbattleofthedragons</RootNamespace>
+    <AssemblyName>Thefinalbattleofthedragons</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MonoGamePlatform>Windows</MonoGamePlatform>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\$(MonoGamePlatform)\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\$(MonoGamePlatform)\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="GameObjects\Components\Component.cs" />
+    <Compile Include="GameObjects\Components\DragonsFire\DragonFireGraphics.cs" />
+    <Compile Include="GameObjects\Components\DragonsFire\DragonFirePhysic.cs" />
+    <Compile Include="GameObjects\Components\Dragons\DragonGraphics.cs" />
+    <Compile Include="GameObjects\Components\Dragons\DragonInput.cs" />
+    <Compile Include="GameObjects\Components\Dragons\DragonPhysic.cs" />
+    <Compile Include="GameObjects\Components\GraphicsComponent.cs" />
+    <Compile Include="GameObjects\Components\Ground\GroudGraphics.cs" />
+    <Compile Include="GameObjects\Components\GuideLine\GuideLinePhysic.cs" />
+    <Compile Include="GameObjects\Components\GuideLine\GuildLineGraphics.cs" />
+    <Compile Include="GameObjects\Components\InputComponent.cs" />
+    <Compile Include="GameObjects\Components\Lifepoints\LifepointsGraphics.cs" />
+    <Compile Include="GameObjects\Components\Lifepoints\LifepointsPhysic.cs" />
+    <Compile Include="GameObjects\Components\Mana\ManaGraphics.cs" />
+    <Compile Include="GameObjects\Components\Mana\ManaPhysics.cs" />
+    <Compile Include="GameObjects\Components\PhysicsComponent.cs" />
+    <Compile Include="GameObjects\Components\Portal\PortalGraphics.cs" />
+    <Compile Include="GameObjects\Components\Portal\PortalPhysics.cs" />
+    <Compile Include="GameObjects\Components\PowerHole\PowerHoleGraphics.cs" />
+    <Compile Include="GameObjects\Components\PowerHole\PowerHolePhysics.cs" />
+    <Compile Include="GameObjects\Components\SpecialSkill\SpecialSkillGraphics.cs" />
+    <Compile Include="GameObjects\Components\SpecialSkill\SpecialSkillPhysics.cs" />
+    <Compile Include="GameObjects\Components\SummonsFire\SummonFireGraphics.cs" />
+    <Compile Include="GameObjects\Components\SummonsFire\SummonFirePhysics.cs" />
+    <Compile Include="GameObjects\Components\Summons\SummonGraphics.cs" />
+    <Compile Include="GameObjects\Components\Summons\SummonPhysics.cs" />
+    <Compile Include="GameObjects\Components\TabCharge\TabChargeGraphics.cs" />
+    <Compile Include="GameObjects\Components\Wild\WildGraphics.cs" />
+    <Compile Include="GameObjects\Components\Wild\WildPhysics.cs" />
+    <Compile Include="GameObjects\GameObject.cs" />
+    <Compile Include="MainScene.cs" />
+    <Compile Include="Managers\AnimationManager.cs" />
+    <Compile Include="Models\Animation.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Singleton.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="MonoGame.Framework">
+      <HintPath>$(MonoGameInstallDirectory)\MonoGame\v3.0\Assemblies\Windows\MonoGame.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <MonoGameContentReference Include="Content\Content.mgcb" />
+    <None Include="app.manifest">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Content.Builder.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

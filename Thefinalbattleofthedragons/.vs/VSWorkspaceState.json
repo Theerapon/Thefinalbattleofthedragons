@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\GameObjects",
+    "\\GameObjects\\Components",
+    "\\GameObjects\\Components\\Dragons",
+    "\\GameObjects\\Components\\Mana",
+    "\\GameObjects\\Components\\Portal",
+    "\\GameObjects\\Components\\PowerHole",
+    "\\GameObjects\\Components\\Summons",
+    "\\GameObjects\\Components\\SummonsFire",
+    "\\GameObjects\\Components\\TabCharge"
+  ],
+  "SelectedNode": "\\GameObjects\\Components\\Dragons\\DragonInput.cs",
+  "PreviewInSolutionExplorer": false
+}

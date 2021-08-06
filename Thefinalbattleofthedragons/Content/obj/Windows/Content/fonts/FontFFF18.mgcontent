@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SourceFile>C:/Users/Theerapon.nanoi.185/Projects/Thefinalbattleofthedragons/Thefinalbattleofthedragons/Content/fonts/FontFFF18.spritefont</SourceFile>
+  <SourceTime>2020-05-09T18:57:42.3077019+07:00</SourceTime>
+  <DestFile>C:/Users/Theerapon.nanoi.185/Projects/Thefinalbattleofthedragons/Thefinalbattleofthedragons/Content/bin/Windows/Content/fonts/FontFFF18.xnb</DestFile>
+  <DestTime>2021-08-06T16:38:42.9179609+07:00</DestTime>
+  <Importer>FontDescriptionImporter</Importer>
+  <ImporterTime>2018-12-08T23:35:54+07:00</ImporterTime>
+  <Processor>FontDescriptionProcessor</Processor>
+  <ProcessorTime>2018-12-08T23:35:54+07:00</ProcessorTime>
+  <Parameters>
+    <Key>PremultiplyAlpha</Key>
+    <Value>True</Value>
+  </Parameters>
+  <Parameters>
+    <Key>TextureFormat</Key>
+    <Value>Compressed</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>
